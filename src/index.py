@@ -17,3 +17,6 @@ def message():
 def message_br():
    random_message = choice(br_messages)
    return random_message
+
+if __name__ == '__main__':
+   app.run(debug=True)
